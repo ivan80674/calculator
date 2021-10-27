@@ -1,0 +1,248 @@
+h1 {  
+    text-align: center;  
+    padding: 23px;  
+    background-color: skyblue;  
+    color: white;  
+    }  
+#container{
+    background-color: red;
+    width: 700px;
+    height: 500px;
+    position: relative;
+    left: 370px;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20%;
+    }
+
+
+    #one{
+  background-color:blue;
+  width: 80px;
+  height: 80px;
+  font-size: 25px;  
+  margin: 5px;  
+  cursor: pointer;  
+  grid-column:  1;
+  grid-row: 2;
+  align-self: center;
+  justify-self: center;
+
+  }
+  #two{
+    background-color:blue;
+    width: 80px;
+    height: 80px;
+    font-size: 25px;  
+    margin: 5px;  
+    cursor: pointer;  
+    grid-column-start:  2 ;
+    grid-row: 2;
+    align-self: center;
+  justify-self: center;
+  
+    }
+    
+    #three{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 2;
+      grid-column-start: 3;
+      align-self: center;
+      justify-self: center;   
+    }
+
+    #four{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 3;
+      grid-column-start: 1;
+      align-self: center;
+      justify-self: center; 
+    }
+    
+    #five{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 3;
+      grid-column-start: 2;
+      align-self: center;
+      justify-self: center; 
+    }
+
+    
+    #six{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 3;
+      grid-column-start: 3;
+      align-self: center;
+      justify-self: center; 
+    }
+    
+    #seven{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 4;
+      grid-column-start: 1;
+      align-self: center;
+      justify-self: center; 
+    }
+    
+    #eight{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 4;
+      grid-column-start: 2;
+      align-self: center;
+      justify-self: center; 
+    }
+    
+    #nine{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 4;
+      grid-column-start: 3;
+      align-self: center;
+      justify-self: center; 
+    }
+    
+    #plus{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 2;
+      grid-column-start: 4;
+      align-self: center;
+      justify-self: center; 
+    }
+    
+    #minus{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 2;
+      grid-column-start: 5;
+      align-self: center;
+      justify-self: center; 
+    }
+    
+    #multiply{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 3;
+      grid-column-start: 4;
+      align-self: center;
+      justify-self: center; 
+    }
+    
+    #divide{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 3;
+      grid-column-start: 5;
+      align-self: center;
+      justify-self: center; 
+    }
+    
+    #zero{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 4;
+      grid-column-start: 4;
+      align-self: center;
+      justify-self: center; 
+    }
+    
+    #equal{
+      background-color:blue;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;  
+      margin: 5px;  
+      cursor: pointer;  
+      grid-row-start: 4;
+      grid-column-start: 5;
+      align-self: center;
+      justify-self: center; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #calc{
+     background-color: chartreuse;
+     width: 600px;
+     height: 100px;
+     grid-column: 1/4;
+     border: 5px solid black;  
+     border-radius: 3px;  
+     padding: 20px;
+     font-size: 25px;
+   }
+ 
+  
